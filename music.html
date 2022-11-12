@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Klychkey</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css"> 
+
+	<link rel="stylesheet" href="css/style.css">
+
+
+	<script src="https://use.fontawesome.com/3a4cf136cd.js"></script>
+</head>
+<body class="bg-color">
+	<header class="container-fluid header-contact">
+		<div class="container first">
+			<nav class="navbar navbar-expand-lg navbar-dark">
+			<a href="index.html" class="navbar-brand">
+				<img src="images/logo.png"  alt="logo">
+			</a>
+			<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="navbar-collapse collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a href="index.html" class="nav-link">Home</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" id="red-item" class="nav-link">Music</a>
+					</li>
+					<li class="nav-item">
+						<a href="about_me.html" class="nav-link">Lifestyle</a>
+					</li>
+					<li class="nav-item">
+						<a href="contact.html"  class="nav-link">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		
+
+
+		</div>
+	</header>
+	<div class="container-fluid hheint">
+		<div class="row">
+			<div class="item-music col-xs-12 col-sm-12 col-lg-6 pt-5">
+				<div class="row">
+						<img id="blur1" src="mix/2.jpg" alt="" class="col-12 item-music-img">
+						<audio src="mix/2.mp3" id="audio"></audio>
+						<i class="b-play fa fa-play play" id="play" onclick="togglePlay()"></i>
+							<div class="soundcloud-share share col-6">
+								<a href="https://soundcloud.com/klychkey/klychkey-x-karism-brassless" class="soundclouud"></a>
+							</div>
+							<a  class="facebook-share share col-3" href="#null" onClick="openWin2()"><i class="fa fa-facebook share-link" aria-hidden="true"></i></a>
+							<a class="twitter-share share col-3" href="https://twitter.com/intent/tweet?text=https://soundcloud.com/klychkey/we-want-summer-1"><i class="fa fa-twitter share-link" aria-hidden="true"></i></a>
+					</div>
+			</div>
+			<div class="item-music col-xs-12 col-sm-12 col-lg-6 pt-5">
+				<div class="row">
+						<img id="blur2" src="mix/1.jpg" alt="" class="col-12 item-music-img">
+						<audio src="mix/1.mp3" id="audio1"></audio>
+						<i class="b-play fa fa-play play1" id="play1" onclick="togglePlay1()"></i>
+							<div class="soundcloud-share share col-6">
+								<a href="https://soundcloud.com/klychkey/we-want-summer-1" class="soundclouud"></a>
+							</div>
+							<a class="facebook-share share col-3" href="#null" onClick="openWin3()"><i class="fa fa-facebook share-link" aria-hidden="true"></i></a>
+							<a class="twitter-share share col-3" href="https://twitter.com/intent/tweet?text=https://soundcloud.com/klychkey/klychkey-x-karism-brassless"><i class="fa fa-twitter share-link" aria-hidden="true"></i></a>
+				</div>
+			</div>
+			
+			<!-- <div class="item-music col-xs-12 col-sm-4 col-lg4 pt-5">
+				<div class="row padding-none">
+						<img src="mix/2.jpg" alt="" class="col-12 item-music-img">
+						<audio src="mix/1.mp3" id="audio"></audio>
+						<i class="b-play fa fa-play play" id="play" onclick="togglePlay()"></i>
+							<div class="soundcloud-share share col-6">
+								<a href="https://soundcloud.com/klychkey" class="soundclouud"></a>
+							</div>
+							<div class="facebook-share share col-3 " >
+								<a class="" href="https://www.facebook.com/djKLYCHKEY/" class=""><i class="fa fa-facebook share-link" aria-hidden="true"></i></div>
+							<div class="twitter-share share col-3">
+								<a class="" href="https://twitter.com/KLYCHKEY" class=""><i class="fa fa-twitter share-link" aria-hidden="true"></i></a>
+							</div>
+				</div>
+			</div> -->
+		</div>
+	</div>
+	
+<!--Footer-->
+    <footer class="footer footer-contact">
+        <div class="socials">
+        	<a href="https://open.spotify.com/artist/7qY5NXnSFyTJYYhfaRmJ2S" class="social hvr-icon-fade"><i class="fa fa-spotify hvr-icon" aria-hidden="true"></i></a>
+        	<!-- <a href="#" class="social hvr-icon-fade"><i class="fa fa-music hvr-icon" aria-hidden="true"></i></a> -->
+        	<a href="https://www.youtube.com/channel/UCO1GosTvOWgqwMyRaZPigZQ/featured" class="social hvr-icon-fade"><i class="fa fa-youtube hvr-icon" aria-hidden="true"></i></a>
+        	<a href="https://www.instagram.com/klychkeymusic/" class="social hvr-icon-fade"><i class="fa fa-instagram hvr-icon" aria-hidden="true"></i></a>
+        	<a href="https://www.facebook.com/djKLYCHKEY/" class="social hvr-icon-fade"><i class="fa fa-facebook hvr-icon" aria-hidden="true"></i></a>
+        	<a href="https://soundcloud.com/klychkey" class="social hvr-icon-fade"><i class="fa fa-soundcloud hvr-icon" aria-hidden="true"></i></a>
+        	<a href="https://twitter.com/KLYCHKEY" class="social hvr-icon-fade"><i class="fa fa-twitter hvr-icon" aria-hidden="true"></i></a>
+        </div>
+        <div class="links ">
+        	<!-- <a href="#" class="link"><img class="social" src="images/sss.eGHUJ.png" alt=""></a>	
+        	<a href="#" class="link"><img class="social" src="images/sdd.H3ec9.png" alt=""></a> -->
+        </div>
+    </footer>
+
+<a href="#null" onClick="openWin2()">
+</a>
+<script>
+function openWin2() {
+myWin=open("http://www.facebook.com/sharer.php?u=https://soundcloud.com/klychkey/we-want-summer-1","displayWindow","width=520,height=300,left=350,top=170,status=no,toolbar=no,menubar=no");
+}
+
+function openWin3() {
+myWin=open("http://staaby-portfolio.000webhostapp.com","displayWindow","width=520,height=300,left=350,top=170,status=no,toolbar=no,menubar=no");
+}
+
+</script>
+
+
+<script src="js/script-play.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
